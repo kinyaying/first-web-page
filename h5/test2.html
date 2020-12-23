@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ratchet template page</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+      <h1 class="title">Ratchet</h1>
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+      <p class="content-padded">Thanks for downloading Ratchet. This is an example HTML page that's linked up to compiled Ratchet CSS and JS, has the proper meta tags and the HTML structure. Need some more help before you start filling this with your own content? Check out some Ratchet resources:</p>
+      <div class="card">
+        <ul class="table-view">
+          <li class="table-view-cell">
+            <a class="push-right" href="http://goratchet.com">
+              <strong>Ratchet documentation</strong>
+            </a>
+          </li>
+          <li class="table-view-cell">
+            <a class="push-right" href="https://github.com/twbs/ratchet/">
+              <strong>Ratchet on Github</strong>
+            </a>
+          </li>
+          <li class="table-view-cell">
+            <a class="push-right" href="https://groups.google.com/forum/#!forum/goratchet">
+              <strong>Ratchet Google group</strong>
+            </a>
+          </li>
+          <li class="table-view-cell">
+            <a class="push-right" href="https://twitter.com/goratchet">
+              <strong>Ratchet on Twitter</strong>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <button class="btn">Button</button>
+<button class="btn btn-outlined">Button</button>
+<button class="btn btn-primary"><span class="icon icon-search"></span>Button</button>
+<button class="btn btn-positive">Badge button <span class="badge">1</span></button>
+<button class="btn btn-block">Block button</button>
+<button class="btn btn-link">链接风格按钮button</button>
+
+
+<!-- icon图标在按钮文本前面 -->
+<button class="btn"><span class="icon icon-search"></span>搜索酒店</button>
+
+<!-- icon图标在按钮文本之后 -->
+<button class="btn">全部订单<span class="icon icon-down"></span></button>
+<button class="btn">查看消息<span class="badge">23</span></button>
+
+
+<div class="content">
+  <div class="card">
+    <ul class="table-view">
+      <li class="table-view-cell table-view-divider">默认按钮系列</li>
+      <li class="table-view-cell">默认按钮 <button class="btn">制作按钮</button></li>
+      <li class="table-view-cell table-view-divider">链接按钮系列</li>
+      <li class="table-view-cell">链接按钮 <button class="btn btn-link">制作按钮</button></li>
+      <li class="table-view-cell table-view-divider">带Icon按钮系列</li>
+      <li class="table-view-cell">带Icon按钮 <button class="btn"><span class="icon icon-search"></span>制作按钮</button></li>
+      <li class="table-view-cell">带Icon按钮 <button class="btn">制作按钮<span class="icon icon-search"></span></button></li>
+      <li class="table-view-cell table-view-divider">带Badge按钮系列</li>
+      <li class="table-view-cell">带Badge按钮 <button class="btn">制作按钮 <span class="badge">13</span></button></li>
+      <li class="table-view-cell table-view-divider">边框按钮系列</li>
+      <li class="table-view-cell">边框按钮 <button class="btn btn-outlined">制作按钮</button></li>
+    </ul>
+  </div>
+</div>
+    </div>
+
+  </body>
+</html>

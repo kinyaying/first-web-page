@@ -1,0 +1,417 @@
+*{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+    html{
+        font-size:20px;
+        color: #6b6b6b;
+    }
+    body{
+        font-family: "microsoft yahei";
+        background: #f0f0f0;
+    }
+    header{
+        width: 16rem;
+        height: 2.15rem;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    header img{
+        width: 16rem;
+    }
+    .red_word{
+        color: #c00000;
+    }
+    .banner{
+        width: 16rem;
+        height: 6.25rem;
+        overflow: hidden;
+        position: relative;
+        left:0;
+        top:0;
+    }
+    .banner ul{
+        position: absolute;
+        left: 0;
+        top:0;
+        height: 6.25rem;
+        width: 64rem;
+    }
+    .banner ul li{
+        width: 16rem;
+        height: 6.25rem;
+        position: relative;
+        float: left;
+    }
+    .banner img{
+        width: 16rem;
+    }
+    .middle-bar{
+        width: 16rem;
+        height: 2.5rem;
+        position:relative;
+        top: 0;
+        left: 0;
+    }
+    .middle-bar img{
+        width: 15.2rem;
+        height: 1.5rem;
+        position: absolute;
+        left:50%;
+        margin-left: -7.6rem;
+        margin-top:0.5rem;
+    }
+    .selector{
+        width: 16rem;
+        height: 2rem;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .selector div{
+        width: 15rem;
+        height: 2rem;
+        position: relative;
+        left:50%;
+        margin-left: -7.5rem;
+    }
+    .selector div input:nth-child(1){
+        display: block;
+        border: 1px solid #fe9600;
+        width: 12.05rem;
+        height: 2rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        box-sizing: border-box;
+        padding-left: 0.7rem;
+        color: #b6b6b6;
+        font-size: 0.7rem;
+        box-shadow:inset 0 1px 3px #b0b0b0; 
+    }
+    .selector div input:nth-child(2){
+        display: block;
+        width: 3rem;
+        height: 2rem;
+        border: 0px;
+        background: #fe9600;
+        position: absolute;
+        right: 0;
+        top:0;
+    }
+    .selector div img{
+        width: 1.2rem;
+        position: absolute;
+        right: 1.5rem;
+        margin-right: -0.6rem;
+        top:1rem;
+        margin-top: -0.6rem;  
+    }
+    .select-tag{
+        width: 16rem;
+        height: 3.5rem;
+        position: relative;
+        top:0;
+        left:0;
+    }
+    .select-tag div{
+        width: 11.25rem;
+        height: 1.75rem;
+        margin: 0 auto;
+    }
+    .select-tag span{
+        display: block;
+        width: 2.25rem;
+        height: 0.8rem;
+        float: left;
+        margin-top: 0.905rem;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .icon-box{
+        width: 16rem;
+        height: 6.925rem;
+        position: relative;
+        left:0;
+        top:0;
+        display: -webkit-flex;
+        display: flex;
+    }
+    .icon-box ul{
+        width: 15.6rem;
+        height: 4.2rem;
+        margin: 1.6rem auto 1.25rem;
+    }
+    .icon-box ul li{
+        display: block;
+        height: 4.2rem;
+        width: 3rem;
+        position: relative;
+        float: left;
+        margin: 0 0.45rem;
+    }
+    .icon-box div{
+        height: 3rem;
+        width: 3rem;
+        overflow: hidden;
+        background: white;
+        border: 1px solid #c3c3c3;
+        border-radius:0.2rem;
+        box-sizing:border-box;
+        text-align: center;
+    }
+    .icon-box div img{
+        height: 2.9rem;
+    }
+    .icon-box span{
+        display: block;
+        height: 1.2rem;
+        width:3rem;
+        font-size: 0.6rem;
+        text-align: center;
+        line-height: 1.2rem;
+    }
+    .sales{
+        position: relative;
+        top:0;
+        left: 0;
+        height: 1.55rem;
+        width: 16rem;
+        background: #fe9600;
+        color: white;
+    }
+    .sales span{
+        display: block;
+        float: left;
+        height: 1.55rem;
+        line-height: 1.55rem;
+        font-size: 0.75rem;
+        margin-left: 0.425rem;
+    }
+    .sales p{
+        display: block;
+        float: left;
+        font-size: 0.6rem;
+        margin-left: 0.5rem;
+        margin-top: 0.4rem;
+    }
+    .sales img{
+        height: 1.55rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .color_red{
+        background: #e50055;
+    }
+    .sales_msg1{
+        height: 12.8rem;
+        width: 16rem;
+        position: relative;
+        left: 0;
+        top: 0;
+        font-size: 0.75rem;
+    }
+    .sales_msg1 div{
+        position: relative;
+        left: 0;
+        top: 0;
+        height: 8.25rem;
+        width: 15rem;
+        margin: 0 0.5rem;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    .sales_msg1 img{
+        display: block;
+        position: relative;
+        left: 0;
+        top:0;
+        height: 7.25rem;
+        margin-top: 0.5rem;
+        float: left;
+    }
+    .sales_msg1 img:nth-child(2){
+        margin-left: 0.4rem;
+    }
+    .sales_msg1 span{
+        display: block;
+        height: 1.875rem;
+        width: 15rem;
+        margin-left: 0.5rem;
+        border-bottom: 1px solid #e7e7e7;
+        border-top: 1px solid #f9f9f9;
+    }
+    .sales_msg1 .sales_msg1_border{
+        display: block;
+        height: 0.1rem;
+        width: 15rem;
+        margin-left: 0.5rem;
+        border-top: 1px solid #f9f9f9;
+        border-bottom: 0px solid #e7e7e7;
+    }
+    .sales_msg1 span p{
+        display: block;
+        float: left;
+        margin-left: 0.5rem;
+        height: 1.875rem;
+        line-height: 1.875rem;
+    }
+    .sales_msg1 span p:nth-child(2){
+        float: right;
+        margin-right: 0.5rem; 
+    }
+    .sales_msg2{
+        height: 21rem;
+        width: 16rem;
+        position: relative;
+        top:0;
+        left:0;
+    }
+    .sales_msg2 ul{
+        height: 100%;
+        width: 100%;
+    }
+    .sales_msg2 ul li{
+        height: 7rem;
+        width: 16rem;
+        float: left;
+    }
+    .sales_msg2 ul li img{
+        width: 16rem;
+    }
+    .tag_box{
+        height: 3.425rem;
+        width: 16rem;
+        font-size: 0.7rem;
+    }
+    .tag_box ul{
+        height: 1.35rem;
+        width: 16rem;
+        margin: 0.525rem 0.275rem 0rem;
+    }
+    .tag_box ul li{
+        width:4.6rem; 
+        height: 1.35rem;
+        border-radius: 0.2rem;
+        background: #fff;
+        font-size: 0.7rem;
+        text-align: center;
+        line-height: 1.35rem;
+        float: left;
+        margin: 0 0.275rem;
+    }
+    .sales_msg1_decorate{
+        height: 5.05rem;
+        position: relative;
+        left:0;
+        top:0;
+    }
+    .sales_msg1_decorate span:nth-child(1){
+        height: 0.95rem;
+        border-top: 0px;
+    }
+    .word_color_yellow{
+        color: #eca026;
+    }
+    .add_margin{
+        margin-top: -0.325rem;
+    }
+    footer{
+        height: 10.2rem;
+        width: 16rem;
+        position: relative;
+        top:0;
+        left:0;
+
+    }
+    footer .footer-top{
+        height: 6.7rem;
+        width: 16rem;
+        background: #e0e0e0; 
+    }
+    .selector2{
+        width: 16rem;
+        height: 2rem;
+        position: relative;
+        top: 0.475rem;
+        left: 0;
+    }
+    .selector2 div{
+        width: 15rem;
+        height: 2rem;
+        position: relative;
+        left:50%;
+        margin-left: -7.5rem;
+    }
+    .selector2 div input:nth-child(1){
+        display: block;
+        border: 1px solid #b0b0b0;
+        width: 12.05rem;
+        height: 2rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        box-sizing: border-box;
+        padding-left: 0.7rem;
+        color: #b6b6b6;
+        font-size: 0.7rem;
+        box-shadow:inset 0 1px 3px #b0b0b0;  
+    }
+    .selector2 div input:nth-child(2){
+        display: block;
+        width: 3rem;
+        height: 2rem;
+        border: 0px;
+        background: #b0b0b0;
+        position: absolute;
+        right: 0;
+        top:0;
+    }
+    .selector2 div img{
+        width: 1.2rem;
+        position: absolute;
+        right: 1.5rem;
+        margin-right: -0.6rem;
+        top:1rem;
+        margin-top: -0.6rem;  
+    }
+    .footer-top ul{
+        position: relative;
+        height: 1.45rem;
+        width: 12.2rem;
+        font-size: 0.75rem;
+        display: webkit-flex;
+        display: flex;
+        left:50%;
+        margin-left: -6.1rem;
+        top:1.2rem;
+        color: #505050;
+    }
+    .footer-top ul li{
+        display:block;
+        height: 1.45rem;
+        width: 2.35rem;
+        webkit-flex:1;
+        flex:1;
+        text-align: center;
+    }
+    footer .footer-middle{
+        height: 1.5rem;
+        width: 16rem;
+        background: #b0b0b0;
+    }
+    footer .footer-middle img{
+        height: 1.5rem;
+    }
+    footer .footer-bottom{
+        height: 2rem;
+        width: 16rem;
+        background: #e0e0e0; 
+        line-height: 2rem;
+        text-align: center;
+        font-size:0.6rem;
+        color: #b0b0b0;
+    }
